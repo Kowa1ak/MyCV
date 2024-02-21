@@ -1,0 +1,203 @@
+@media (max-width: 1280px) {
+    .cell-1 {
+        display: flex;
+        justify-content: end;
+        width: 15%;
+        text-align: right;
+        margin-right: 20px;
+        font-weight: 500;
+    }
+    .cell-2 {
+        width: 85%;
+    }
+    .horize-line {
+        border: none;
+        border-top: 2px solid dimgray;
+        margin-top: 15px;
+        width: 95%;
+        margin-left: 0;
+    }
+    table {
+        margin-left: -3px;
+        width: 95%;
+    }
+    .td-1 {
+        width: 22%;
+        font-weight: 500;
+        vertical-align: top;
+    }
+    .td-year {
+        width: 90px;
+        vertical-align: top;
+    }
+    .td-level {
+        width: 115px;
+        vertical-align: top;
+        color: rgb(168, 168, 168);
+    }
+}
+
+@media (min-width: 1281px) {
+    .cell-1 {
+        display: flex;
+        justify-content: end;
+        width: 20%;
+        text-align: right;
+        margin-right: 20px;
+        font-weight: 500;
+    }
+    .cell-2 {
+        width: 80%;
+    }
+    .horize-line {
+        border: none;
+        border-top: 2px solid dimgray;
+        margin-top: 15px;
+        width: 80%;
+        margin-left: 0;
+    }
+    table {
+        margin-left: -3px;
+        width: 80%;
+    }
+    .td-1 {
+        width: 18%;
+        font-weight: 500;
+        vertical-align: top;
+    }
+    .td-year {
+        width: 115px;
+        vertical-align: top;
+    }
+    .td-level {
+        width: 115px;
+        vertical-align: top;
+        color: rgb(168, 168, 168);
+    }
+}
+
+.main {    
+    font-family: 'Avenir Next Cyr';
+    src: url('../fonts/AvenirNextCyr-Light.ttf');
+    font-weight: 300;
+}
+.bold {
+    font-weight: bold;
+}
+.table {
+    display: flex;
+    justify-content: center;    
+}
+.cell-2 span {
+    display: flex;
+}
+#name {
+    font-size: 35px;
+    font-weight: 500;
+    color: dimgray;
+    letter-spacing: 0.2em;
+    margin-top: -5px;
+}
+#surname {
+    font-size: 18px;
+    letter-spacing: 0.54em;
+    font-weight: 400;
+}
+.vert-line {
+    width: 1px;
+    color: black;
+    border: none;
+	border-top: 50px solid black;
+    margin-left: 0;
+}
+b {
+    font-weight: 500;
+}
+.between {
+    height: 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(47, 0, 255);
+}
+a:hover {
+    color: rgb(0, 153, 255);
+}
+img {
+    width: 90px;
+    margin-top: 50px;
+}
+.copy {
+    text-align: right;
+}
+#icon {
+    width: 16px;
+    margin-top: 0px;
+    margin-bottom: -2px;
+}
+
+
+/* Animation */
+.twist {
+    width: 90px;
+    height: 192px;
+    transform: rotate(360deg);  
+    animation-name: twist;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 0;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+    -moz-transform: rotate(360deg); 
+    -moz-animation-name: twist;
+    -moz-animation-duration: 10s;    
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards; 
+    -webkit-transform: rotate(360deg);  
+    -webkit-animation-name: twist;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards; 
+    -ms-transform: rotate(360deg);  
+    -o-transform: rotate(360deg); 
+} 
+@keyframes twist {
+    0% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes twist {
+    0% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes twist {
+    0% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
