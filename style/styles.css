@@ -138,7 +138,7 @@ img {
 
 
 /* Animation */
-.twist {
+/* .twist {
     width: 90px;
     height: 192px;
     transform: rotate(360deg);  
@@ -200,4 +200,4 @@ img {
         -moz-transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
     }
-}
+} */
